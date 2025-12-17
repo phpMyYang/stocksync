@@ -12,11 +12,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    // IDAGDAG MO ANG PART NA ITO PARA MAWALA ANG WARNINGS:
     css: {
         preprocessorOptions: {
             scss: {
-                api: "modern-compiler", // or "modern"
+                api: "modern-compiler",
                 silenceDeprecations: [
                     "color-functions",
                     "global-builtin",
